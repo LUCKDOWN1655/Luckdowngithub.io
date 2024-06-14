@@ -1,0 +1,91 @@
+.todo {
+    display: grid;
+    justify-content: center;
+    background: #52c234;
+    background: -webkit-linear-gradient(to right, #52c234, #061700);
+    background: linear-gradient(to right, #52c234, #061700);
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.info img {
+    width: 600px;
+    height: 300px;
+}
+
+.info_text {
+    display: grid;
+}
+
+.video {
+    display: flex;
+    width: 850px;
+    height: 500px; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+
+}
+
+.videoop {
+    display: flex;
+    justify-content: center;
+}
+
+.trailer {
+    text-align: center;
+}
+
+.titulo h1 {
+    text-align: center;
+}
+
+.info_text button {
+    border: none;
+    border-bottom: none;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    transition: transform 0.3s ease, border 0.3s ease;
+    box-shadow: 0px 0px 10px rgb(120, 9, 9);
+    transition: all .4s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px rgb(120, 9, 9),
+    0px 0px 50px rgb(120, 9, 9),
+    0px 0px 100px rgb(120, 9, 9),
+    0px 0px 150px rgb(120, 9, 9);
+}
